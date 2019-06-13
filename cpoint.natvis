@@ -1,0 +1,4 @@
+
+<Type Name="CPoint">
+<DisplayString>{{x={x} y={y}}}
+</Type>
