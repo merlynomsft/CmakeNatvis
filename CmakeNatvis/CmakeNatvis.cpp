@@ -8,7 +8,7 @@
 
 using namespace std;
 
-class CPoint
+class MyPoint
 {
 public:
 	int x = 1;
@@ -21,11 +21,11 @@ main()
 	vector<string> v;
 	v.emplace_back("hello!");
 
-	CPoint zzz;
-	vector<CPoint> v2;
+	MyPoint zzz;
+	vector<MyPoint> v2;
 	v2.emplace_back(zzz);
 
 	cout << "Hello CMake." << endl;
 
-	return 0;
+ 	return 0;
 }
